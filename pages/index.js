@@ -1,8 +1,14 @@
-import Link from 'next/link';
+import Navbar from '../components/navbar';
 
-export default () => (
-    <div>
-        <div>Hello Next.JS</div>
-        <Link href='/about'><a>About</a></Link>
-    </div>
+const Index = () => (
+    <>
+        <header>
+            <Navbar />
+        </header>
+        <section>
+            <h1>Welcome to BitzPrice!</h1>
+        </section>
+    </>
 );
+
+export default Index;
